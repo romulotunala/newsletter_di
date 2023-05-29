@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.pageStyles {
+  width: 100vw;
+  min-height: 100vh;
+  background-image: url('../images/wallpaper_di.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pageStyles_content {
+  width: 700px;
+  min-height: 90vh;
+  padding: 100px 16px;
+  padding-left: 40px;
+  position: relative;
+    
+  .wallpaper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+  }
+  .content {
+    position: relative;
+    z-index: 1;
+  }
+}
+
+.content_title {
+  width: 100%;
+  margin: 32px 0;
+  font: 700 3rem 'Poppins', sans-serif;
+  text-align: center;
+}
+
+.content_subtitle {
+  width: 100%;
+  margin: 48px 0;
+  font: 500 1.875rem 'Poppins', sans-serif;
+  text-align: center;
+  background-color: #E8ABFF;
+  border: 2px solid #000;
+  border-radius: 50px;
+}
+.content_containerOptions {
+  width: 100%;
+  margin-top: 48px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  .containerOptions_label {
+    width: 100%;
+    font: 500 1.5rem 'Poppins', sans-serif;
+    text-align: center;
+  }
+  .containerOptions_choice {
+    width: fit-content;
+    margin: 3rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+    .choice_buttons {
+      width: fit-content;
+      img {
+        width: 150px;
+        height: auto;
+      }
+    }
+    span {
+      font: 500 1.5rem 'Poppins', sans-serif;
+      text-align: center;
+      padding-top: 1rem;
+    }
+  }
+}
+.pageStyles_footer {
+  width: 100%;
+  height: 64px;
+  padding: 0 16px;
+  background: #fffb;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 2;
+  img {
+    width: 62px;
+  }
+}
