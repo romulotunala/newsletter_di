@@ -14,22 +14,11 @@ const IndexPage: React.FC<PageProps> = () => {
         <img className="wallpaper" src={paper} alt="" />
         <div className="content">
           <h1 className="content_title content">Diversity & Inclusion</h1>
-          <h2 className="content_subtitle">Welcome to the D&I Newsletter</h2>
+          <h2 className="content_subtitle">Boas-vindas à Newsletter D&I</h2>
           <div className="content_containerOptions">
-            <h3 className="containerOptions_label">Choose your language to continue.</h3>
+            <h3 className="containerOptions_label">Acesse a newsletter:</h3>
             
-            <a href="#" className="containerOptions_choice">
-              <div className="choice_buttons">
-                <img src={ptbr_flag} alt="" />
-              </div>
-              <span>Português</span>
-            </a>
-            <a href="#" className="containerOptions_choice">
-              <div className="choice_buttons">
-                <img src={en_flag} alt="" />
-              </div>
-              <span>English</span>
-            </a>
+            <a href="#" className="containerOptions_uniqueChoice">Click aqui</a>
           </div>
         </div>
       </section>
