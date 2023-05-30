@@ -36,8 +36,12 @@ export const Head: HeadFC = () => {
     <>
       <html lang="pt-BR" />
       <title>Newsletter D&I</title>
-      <meta name="image" content='./src/images/seo_image.png' />
       <link rel="icon" href={favicon} />
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="https://romulotunala.github.io/newsletter_di/" />
+      <meta property="og:title" content="Newsletter D&I" />
+      <meta property="og:description" content="Newsletter sobre diversidade e inclusão" />
+      <meta property="og:image" content="../images/seo_image.png" />
     </>
   )
 }
