@@ -2,10 +2,9 @@ import * as React from "react"
 import type { HeadFC, PageProps } from "gatsby"
 import "../styles/default.scss"
 
-import ptbr_flag from "../images/pt-br_flag.png"
-import en_flag from "../images/en_flag.png"
 import paper from "../images/paper.png"
 import ciandt_logo from "../images/logo.svg"
+import favicon from "../images/favicon/favicon-16x16.png";
 
 const IndexPage: React.FC<PageProps> = () => {
   return (
@@ -32,4 +31,13 @@ const IndexPage: React.FC<PageProps> = () => {
 
 export default IndexPage
 
-export const Head: HeadFC = () => <title>Home Page</title>
+export const Head: HeadFC = () => {
+  return (
+    <>
+      <html lang="pt-BR" />
+      <title>Newsletter D&I</title>
+      <meta name="image" content='./src/images/seo_image.png' />
+      <link rel="icon" href={favicon} />
+    </>
+  )
+}

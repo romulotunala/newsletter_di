@@ -3,8 +3,11 @@ import type { GatsbyConfig } from "gatsby";
 const config: GatsbyConfig = {
   pathPrefix: '/newsletter_di',
   siteMetadata: {
-    title: `Newsletter D&I`,
-    // siteUrl: `https://romulotunala.github.io/newsletter_di/`
+    title: 'Newsletter D&I',
+    siteUrl: 'https://romulotunala.github.io/newsletter_di/',
+    description: 'Newsletter sobre diversidade e inclusão',
+    image: './src/images/seo_image.png',
+    manifest: './src/images/favicon/manifest.json'
   },
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
   // If you use VSCode you can also use the GraphQL plugin

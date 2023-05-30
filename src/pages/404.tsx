@@ -1,6 +1,8 @@
 import * as React from "react"
 import { Link, HeadFC, PageProps } from "gatsby"
 
+import favicon from "../images/favicon/favicon-16x16.png";
+
 const pageStyles = {
   color: "#232129",
   padding: "96px",
@@ -46,4 +48,13 @@ const NotFoundPage: React.FC<PageProps> = () => {
 
 export default NotFoundPage
 
-export const Head: HeadFC = () => <title>Not found</title>
+export const Head: HeadFC = () => {
+  return (
+    <>
+      <title>Not found</title>
+      <meta name="image" content='./src/images/seo_image.png' />
+      <link rel="icon" href={favicon} />
+    </>
+  )
+}
+
