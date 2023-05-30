@@ -18,12 +18,17 @@ const IndexPage: React.FC<PageProps> = () => {
           <div className="content_containerOptions">
             <h3 className="containerOptions_label">Acesse a newsletter:</h3>
             
-            <a href="#" className="containerOptions_uniqueChoice">Click aqui</a>
+            <a
+              className="containerOptions_uniqueChoice"
+              href="https://drive.google.com/file/d/1URVwEmb1NAyvKtricrVEloScnf-6gM7C/view?usp=drive_link"
+            >
+              Click aqui
+            </a>
           </div>
         </div>
       </section>
       <footer className="pageStyles_footer">
-        <img src={ciandt_logo} alt="" />
+        <img src={ciandt_logo} alt="Logo da CI&T" />
         <p>© 2023 CI&T. All Rights Reserved.</p>
       </footer>
     </main>
@@ -33,6 +38,7 @@ const IndexPage: React.FC<PageProps> = () => {
 export default IndexPage
 
 export const Head: HeadFC = () => {
+  // TODO: Choose and add a plugin to manage SEO.
   return (
     <>
       <html lang="pt-BR" />

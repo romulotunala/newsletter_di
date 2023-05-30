@@ -108,13 +108,13 @@
     border: 2px solid #000;
     border-radius: 5px;
     cursor: pointer;
+    color: #000;
     text-decoration: none;
     font: 400 1.5rem 'Poppins', sans-serif;
 
     &:hover {
       background: adjust-color($color: #E8ABFF, $lightness: -10%,);
       box-shadow: 0 0 .625rem #E8ABFF;
-      font-weight: 500;
     }
 
     @media (max-width: 576px) {
