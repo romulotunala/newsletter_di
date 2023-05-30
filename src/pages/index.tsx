@@ -5,6 +5,7 @@ import "../styles/default.scss"
 import paper from "../images/paper.png"
 import ciandt_logo from "../images/logo.svg"
 import favicon from "../images/favicon/favicon-16x16.png";
+import seo_image from "../images/seo_image.png";
 
 const IndexPage: React.FC<PageProps> = () => {
   return (
@@ -41,7 +42,7 @@ export const Head: HeadFC = () => {
       <meta property="og:url" content="https://romulotunala.github.io/newsletter_di/" />
       <meta property="og:title" content="Newsletter D&I" />
       <meta property="og:description" content="Newsletter sobre diversidade e inclusão" />
-      <meta property="og:image" content="../images/seo_image.png" />
+      <meta property="og:image" content={seo_image} />
     </>
   )
 }
