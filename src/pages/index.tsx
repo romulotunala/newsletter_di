@@ -20,7 +20,7 @@ const IndexPage: React.FC<PageProps> = () => {
             
             <a
               className="containerOptions_uniqueChoice"
-              href="https://drive.google.com/file/d/1URVwEmb1NAyvKtricrVEloScnf-6gM7C/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1_fTTZz9jeL9p2_l8sWa95ZSm57sY0U7O/view?usp=sharing"
             >
               Click aqui
             </a>
